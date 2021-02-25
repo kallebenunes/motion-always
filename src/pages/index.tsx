@@ -3,6 +3,7 @@ import ExperienceBar from '../compoents/ExperienceBar'
 import GlobalStyle, { AppContainer } from './GlobalStyle'
 import Profile from './../compoents/Profile/index';
 import CompleteChallenges from '../compoents/CompleteChallenges';
+import Countdown from '../compoents/Countdown';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div>
         <Profile/>
         <CompleteChallenges/>
+        <Countdown/>
       </div>
       <div></div>
     </section>

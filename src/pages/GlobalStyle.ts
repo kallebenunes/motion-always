@@ -11,7 +11,7 @@ export default createGlobalStyle`
     --title: #2E384D; 
     --red: #E83F5B; 
     --green: #4CD62B;
-    --BLUE: #5965E0;
+    --blue: #5965E0;
     --blue-dark: #4953B8; 
     --blue-twitter: #2AA9E0;
     }
