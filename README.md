@@ -1,4 +1,4 @@
-## Fala galara, sejam muito bem vindos ao repo do Motion Always
+## Fala galera, sejam muito bem vindos ao repo do Motion Always
 Essa aplicação foi desenvolvida na incrível 4ª edição da Nex Level Week, segui os passos 
 do Diego Shell. 
 Fiz algumas coisas diferentes, utilizei a lib Style-Components, tornei um pouco mais responsiva
