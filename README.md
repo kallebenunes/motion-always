@@ -18,4 +18,4 @@ e adcionei um histórico pra conferir quanto e quando foram ganhos pontos de exp
 Depois de rodar os comandos é só acessar o localhost, um adendo, pra não ter conflito com aplicações
 que rodam na porta 3000, o projeto está configurado na porta 3030. 
 
-#Eu fico por aqui, divirta-se com o código e até logo !!! 
+# Eu fico por aqui, divirta-se com o código e até logo !!! 
