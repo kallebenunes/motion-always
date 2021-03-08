@@ -2,7 +2,7 @@
 Essa aplicação foi desenvolvida na incrível 4ª edição da Nex Level Week, segui os passos 
 do Diego Shell. 
 Fiz algumas coisas diferentes, utilizei a lib Style-Components, tornei um pouco mais responsiva
-e adcionei um histórico pra confetir quanto e quando foram ganhos pontos de expriência. 
+e adcionei um histórico pra conferir quanto e quando foram ganhos pontos de expriência. 
 
 ## Tá afim de rodar a aplicação na sua máquina ? Segue os passos: 
 ```bash
@@ -12,7 +12,7 @@ e adcionei um histórico pra confetir quanto e quando foram ganhos pontos de exp
 
   npm install ou yarn install 
 
-  npm run ou yarn dev 
+  npm run dev ou yarn dev 
 ````
 
 Depois de rodar os comandos é só acessar o localhost, um adendo, pra não ter conflito com aplicações
