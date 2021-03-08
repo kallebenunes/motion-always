@@ -73,6 +73,12 @@ const Container = styled.div`
     color: var(--text);
     cursor: not-allowed;
   }
+
+  @media (max-width: 720px) {
+    span {
+      font-size: 10rem;
+    }
+  }
 `;
 
 export default Container

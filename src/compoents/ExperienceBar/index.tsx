@@ -1,21 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { ChallengesContext } from '../../contexts/ChallengesContext'
 import Container, { BarFill } from './styles'
 
 
 const ExperienceBar = () => {
     
-    const [defineFill, setdefineFill] = useState('0%')
+    const [defineFill, setdefineFill] = useState(0)
 
-    function experienceFill(){
-        let max = 95; 
-        let min = 40;;
-        let xp = Math.floor(Math.random() * (max - min + 1)) + min;
-        setdefineFill(`${xp}`)
-    }
+    const {currentExperience,experienceToNextLevel} = useContext(ChallengesContext)
 
     useEffect(() => {
-        experienceFill() 
-    },[])
+        setdefineFill((currentExperience * 100)/experienceToNextLevel)
+    },[currentExperience])
     
     return (
     
@@ -23,9 +19,9 @@ const ExperienceBar = () => {
                 <span>0 xp</span>
                 <div>
                     <BarFill fill={defineFill} />
-                    <span  className='current-experience'>{defineFill} xp</span>
+                    {currentExperience > 0 ? <span  className='current-experience'>{currentExperience} xp</span> : null}
                 </div>
-                <span>600 xp</span>
+                <span>{experienceToNextLevel} xp</span>
            </Container>
        
     )

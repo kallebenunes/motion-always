@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 type PropsContainer = {
-    currentXp: string;
+    currentXp: number;
 }
 
 const Container = styled.header`
@@ -25,13 +25,18 @@ const Container = styled.header`
         left: ${(props: PropsContainer) => props.currentXp+'%'};
         transform: translateX(-50%);
         top: 12px;
+        
+    }
+
+    @media (max-width: 720px){
+        margin-bottom: 2rem;
     }
 `;
 
 export default Container
 
 type FillProps = {
-    fill: string;
+    fill: number;
 }
 export const BarFill = styled.div`
     width: ${(props: FillProps) => `${props.fill}%`};

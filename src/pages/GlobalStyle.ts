@@ -5,7 +5,7 @@ export default createGlobalStyle`
     :root {
     --white: #fff; 
     --background: #f2f3f5; 
-    --gray-line: #DCCDE0; 
+    --gray-line:  #DCDDE0;; 
     --text: #666666;
     --text-highlight: #B3B9FF;
     --title: #2E384D; 
@@ -21,11 +21,7 @@ export default createGlobalStyle`
             font-size: 93.75%;
         }
     }
-    @media(max-width: 720px){
-        html {
-            font-size: 87.5%;
-        }
-    }
+   
 
     * {
         padding: 0;
@@ -57,6 +53,19 @@ export default createGlobalStyle`
         grid-template-columns: 1fr 1fr; 
         gap: 6.25rem; 
         align-content: center;
+    }
+
+    @media(max-width: 720px){
+       
+
+        html {
+            font-size: 87.5%;
+        }
+
+        section {
+            grid-template-columns: 1fr;
+            padding-bottom: 2rem;
+        }
     }
 `;
 
